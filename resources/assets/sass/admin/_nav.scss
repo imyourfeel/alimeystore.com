@@ -1,0 +1,56 @@
+
+.nav{
+  background-color: #ff4400;
+
+  .menu > li > a{
+    color: #edf5e1;
+    font-size: 1.2rem;
+
+    &:hover, &:focus, &:active{
+      background-color: darken(#ff4400, 8%);
+      transition: 0.3s;
+      font-color: lighten(#edf5e1, 10%);
+      .fa{
+        transition: 2s;
+        transform: rotateY(360deg);
+      }
+    }
+
+  }
+
+  h3{
+    color:#edf5e1;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .image-holder{
+      padding: 0.5rem;
+      background-color: #ff4400;
+
+      img{
+        border-radius: 50%;
+        border: 1px solid whitesmoke;
+        padding: 0.1rem;
+        height: 200px; width: 200px;
+      }
+
+      p{
+        color: #edf5e1;
+        font-size: 1.1rem;
+
+      }
+    }
+}
+
+.admin_title_bar{
+  .title-bar{
+    background-color: #ff4400;
+
+    .title-bar-title{
+      font-size: 1.5rem;
+      color: #edf5e1;
+    }
+  }
+}

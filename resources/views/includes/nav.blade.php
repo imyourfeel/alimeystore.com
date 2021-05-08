@@ -1,0 +1,104 @@
+<?php $categories = \App\Models\Category::with('subCategories')->get(); ?>
+<header class="navigation">
+    <div class="hide-for-medium">
+        <div class="title-bar toggle" data-responsive-toggle="main-menu" data-hide-for="medium">
+            <button class="menu-icon float-right" type="button" data-toggle="main-menu"></button>
+            <a href="/" class="float-left small-logo"></a>
+        </div>
+
+        <div class="top-bar" id="main-menu">
+            <div class="menu medium-horizontal expanded medium-text-center" data-dropdown-menu
+                 data-responsive-menu="drilldown medium-dropdown" data-click-open="true"
+                 data-disable-hover="true" data-close-on-click-inside="false">
+
+                <div class="top-bar-title show-for-medium">
+                    <a href="/" class="logo"></a>
+                </div>
+
+                <div class="top-bar-right">
+                    <ul class="dropdown menu vertical medium-horizontal">
+                        @if(isAuthenticated())
+                            <li><a href="/about">About Us</a> </li>
+                            <li><a href="#">{{ user()->username }}</a> </li>
+                            <li>
+                                <a href="/cart">Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="/logout">Logout</a> </li>
+                        @else
+                            <li><a href="/about">About Us</a> </li>
+                            <li><a href="/login">Sign In</a> </li>
+                            <li><a href="/register">Register</a> </li>
+                            <li>
+                                <a href="/cart">
+                                    0&nbsp&nbsp<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        @endif
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="show-for-medium">
+        <div class="top-bar" id="main-menu">
+            <div class="menu medium-horizontal expanded medium-text-center" data-dropdown-menu
+                 data-responsive-menu="drilldown medium-dropdown" data-click-open="true"
+                 data-disable-hover="true" data-close-on-click-inside="false">
+
+                <div class="top-bar-title show-for-medium">
+                    <a href="/" class="logo"></a>
+                </div>
+                <div class="top-bar-left">
+                    <ul class="dropdown menu vertical medium-horizontal">
+                        <li><a href="/">Alimey Store</a> </li>
+                        @if(count($categories))
+                            <li>
+                                <a href="#">Categories</a>
+                                <ul class="menu vertical sub dropdown">
+                                    @foreach($categories as $category)
+                                        <li>
+                                            <a href="#">{{ $category->name }}</a>
+                                            @if(count($category->subCategories))
+                                                <ul class="menu sub vertical">
+                                                    @foreach($category->subCategories as $subCategory)
+                                                        <li>
+                                                            <a href="#">
+                                                                {{ $subCategory->name }}
+                                                            </a>
+                                                        </li>
+                                                    @endforeach
+                                                </ul>
+                                            @endif
+                                        </li>
+                                    @endforeach
+                                </ul>
+                            </li>
+                        @endif
+                    </ul>
+                </div>
+
+                <div class="top-bar-right">
+                    <ul class="dropdown menu vertical medium-horizontal">
+                        @if(isAuthenticated())
+                            <li><a href="/about">About Us</a> </li>
+                            <li>{{ user()->username }}</li>
+                            <li><a href="/logout">Logout</a> </li>
+                            <li>
+                                <a href="/cart">0&nbsp&nbsp<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        @else
+                            <li><a href="/about">About Us</a> </li>
+                            <li><a href="/login">Sign In</a> </li>
+                            <li><a href="/register">Register</a> </li>
+                            <li>
+                                <a href="/cart">Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            </li>
+                        @endif
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
