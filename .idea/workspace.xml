@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ca4abd5-4098-477e-81c4-ca5effef15b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/piseth2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/kh.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routing/RouteDispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/RouteDispatcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/8bf5b7f93a641769b303096e48107f8bd2f71cc6.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/8bf5b7f93a641769b303096e48107f8bd2f71cc6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/0b9fd854851878e0f0747b6846d94f1e63b3b011.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/0b9fd854851878e0f0747b6846d94f1e63b3b011.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/62ee6531c377f0ca980810844f28701c69d293a9.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/62ee6531c377f0ca980810844f28701c69d293a9.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap/cache/ca790d60205be739fc72d14a2979db2691810317.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/ca790d60205be739fc72d14a2979db2691810317.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/cd836765b8b45ec2fb762f693690866c9911a8a1.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/cd836765b8b45ec2fb762f693690866c9911a8a1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/categories.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/errors/404.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/errors/404.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/sass/pages/_product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/sass/pages/_product.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/includes/admin-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/admin-sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/nav.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +147,7 @@
       <workItem from="1620645245992" duration="5062000" />
       <workItem from="1620655077468" duration="2134000" />
       <workItem from="1620750339754" duration="106000" />
+      <workItem from="1620908526656" duration="5396000" />
     </task>
     <task id="LOCAL-00001" summary="Update functionality">
       <created>1619013126058</created>

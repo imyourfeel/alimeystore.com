@@ -4228,10 +4228,10 @@ textarea {
   .product .button {
     border-radius: 0.2rem;
     cursor: pointer;
-    border: 1px solid #ff0000;
+    border: 1px solid #ff4400;
     margin-left: 1rem; }
     .product .button:hover {
-      background-color: #e30000; }
+      background-color: #ff5e24; }
 
 .auth {
   padding: 6rem; }

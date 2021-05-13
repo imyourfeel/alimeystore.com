@@ -34,7 +34,7 @@
                         <p>{{ product.description }}</p>
                         <h2>${{ product.price }}</h2>
                         <button v-if="product.quantity > 0" @click.prevent="addToCart(product.id)"
-                                class="button alert">
+                                class="button warning">
                              Add to cart
                         </button>
                         <button v-else class="button warning" disabled>

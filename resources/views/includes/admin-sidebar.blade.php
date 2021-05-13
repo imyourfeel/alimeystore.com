@@ -4,7 +4,11 @@
     <h3> Welcome Admin </h3>
     
     <div class="image-holder text-center">
-    <img src="/images/piseth2.jpg" alt="piseth" title="Admin">}
+        @if(user()->fullname='Rithya Theng')
+            <img src="/images/rithya2.jpg" alt="rithya" title="Admin">}
+        @else
+            <img src="/images/piseth2.jpg" alt="piseth" title="Admin">}
+        @endif
         <p>{{ user()->fullname }}</p>
     </div>
     

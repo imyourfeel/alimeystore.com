@@ -14,10 +14,10 @@
   .button{
     border-radius: 0.2rem;
     cursor: pointer;
-    border: 1px solid #ff0000;
+    border: 1px solid #ff4400;
     margin-left: 1rem;
     &:hover{
-      background-color: lighten(#bf0000, 7%);
+      background-color: lighten(#ff4400, 7%);
     }
   }
 }
