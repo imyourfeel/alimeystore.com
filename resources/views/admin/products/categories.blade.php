@@ -13,23 +13,12 @@
     @include('includes.message')
     
     <div class="row expanded">
-        <div class="small-12 medium-6 column">
-            <form action="" method="post">
-                <div class="input-group">
-                    <input type="text" class="input-group-field" placeholder="Search by name">
-                    <div class="input-group-button">
-                        <input type="submit" class="button" value="Search">
-                    </div>
-                </div>
-            </form>
-        </div>
-
-        <div class="small-12 medium-5 end column">
+        <div class="small-12 medium-5 column">
             <form action="/admin/product/categories" method="post">
                 <div class="input-group">
+                    <input type="hidden" name="token" value="{{ \App\Classes\CSRFToken::_token() }}">
                     <input type="text" class="input-group-field" name="name"
                            placeholder="Category Name">
-                    <input type="hidden" name="token" value="{{ \App\Classes\CSRFToken::_token() }}">
                     <div class="input-group-button">
                         <input type="submit" class="button" value="Create">
                     </div>

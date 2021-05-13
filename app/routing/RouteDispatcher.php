@@ -1,5 +1,5 @@
 <?php
-namespace App;
+namespace App\Routing;
 
 use AltoRouter;
 class RouteDispatcher

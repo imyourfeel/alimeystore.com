@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ca4abd5-4098-477e-81c4-ca5effef15b4" name="Default Changelist" comment="" />
+    <list default="true" id="3ca4abd5-4098-477e-81c4-ca5effef15b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/piseth2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routing/RouteDispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/RouteDispatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/8bf5b7f93a641769b303096e48107f8bd2f71cc6.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/8bf5b7f93a641769b303096e48107f8bd2f71cc6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/ca790d60205be739fc72d14a2979db2691810317.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/ca790d60205be739fc72d14a2979db2691810317.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/cd836765b8b45ec2fb762f693690866c9911a8a1.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/cd836765b8b45ec2fb762f693690866c9911a8a1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/categories.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/errors/404.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/errors/404.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/admin-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/admin-sidebar.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +47,7 @@
         <option value="Rithya Theng &lt;imyourfeel@gmail.com&gt;" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/alimeystore" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -99,7 +110,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -132,7 +143,11 @@
       <workItem from="1618928478545" duration="10438000" />
       <workItem from="1618989691786" duration="4415000" />
       <workItem from="1619004569245" duration="5165000" />
-      <workItem from="1620481894574" duration="3837000" />
+      <workItem from="1620481894574" duration="5046000" />
+      <workItem from="1620624088356" duration="427000" />
+      <workItem from="1620645245992" duration="5062000" />
+      <workItem from="1620655077468" duration="2134000" />
+      <workItem from="1620750339754" duration="106000" />
     </task>
     <task id="LOCAL-00001" summary="Update functionality">
       <created>1619013126058</created>
@@ -186,10 +201,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="164" y="164" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1619009828531" />
-    <state x="56" y="28" width="1722" height="883" key="SettingsEditor" timestamp="1619009810536">
+    <state x="56" y="28" width="1722" height="883" key="SettingsEditor" timestamp="1620486091984">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="56" y="28" width="1722" height="883" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1619009810536" />
+    <state x="56" y="28" width="1722" height="883" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1620486091984" />
     <state width="246" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1617783599433">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -202,10 +217,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1617783607536" />
-    <state x="1009" y="178" width="840" height="676" key="search.everywhere.popup" timestamp="1618993941598">
+    <state x="1009" y="178" width="840" height="676" key="search.everywhere.popup" timestamp="1620647451593">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1009" y="178" width="840" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1618993941598" />
+    <state x="1009" y="178" width="840" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1620647451593" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

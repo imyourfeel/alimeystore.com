@@ -1,24 +1,64 @@
-
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!------ Include the above in your HEAD tag ---------->
-<style>body {
-    background: #dedede;
+<style>
+    *{
+    transition: all 0.6s;
 }
-.page-wrap {
-    min-height: 100vh;
+
+html {
+    height: 100%;
+    background: #FF4400 50%;
+}
+
+body{
+    font-family: 'Ubuntu Mono', sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+#main{
+    display: table;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.fof{
+	  display: table-cell;
+	  vertical-align: middle;
+}
+
+.fof h1{
+	  border:  5px solid white;
+	  border-radius: 1rem;
+	  font-size: 100px;
+	  display: inline-block;
+	  padding-right: 12px;
+
+}
+.fof h2{
+	  font-size: 50px;
+	  display: inline-block;
+	  padding-right: 12px;
+	  animation: type .5s alternate infinite;
+}
+.fof img{
+	width: 150px;
+	height: 150px;
+
+}
+
+@keyframes  type{
+	  from{box-shadow: inset -3px 0px 0px #ffffff;}
+	  to{box-shadow: inset -3px 0px 0px transparent;}
+
 }</style>
 
-<div class="page-wrap d-flex flex-row align-items-center">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 text-center">
-                <span class="display-1 d-block">404</span>
-                <div class="mb-4 lead">The page you are looking for was not found.</div>
-                <a href="http://alimeystore.com" class="btn btn-link">Home</a>
-            </div>
-        </div>
-    </div>
+<div id="main">
+    	<div class="fof">
+			<img src="/images/alimeystorelogo.jpg" alt="Rithya" title="Admin">
+			<br>
+				<h1>&nbspError 404&nbsp</h1>
+			<br>
+        		<h2>Page Not Found</h2>
+			<br>
+    	</div>
 </div>
