@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ca4abd5-4098-477e-81c4-ca5effef15b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/en.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/kh.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/0b9fd854851878e0f0747b6846d94f1e63b3b011.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/0b9fd854851878e0f0747b6846d94f1e63b3b011.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/62ee6531c377f0ca980810844f28701c69d293a9.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/62ee6531c377f0ca980810844f28701c69d293a9.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap/cache/ca790d60205be739fc72d14a2979db2691810317.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/ca790d60205be739fc72d14a2979db2691810317.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/sass/pages/_product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/sass/pages/_product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/sliders/slide_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/sliders/slide_1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/includes/admin-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/admin-sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/nav.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +142,10 @@
       <workItem from="1620645245992" duration="5062000" />
       <workItem from="1620655077468" duration="2134000" />
       <workItem from="1620750339754" duration="106000" />
-      <workItem from="1620908526656" duration="5396000" />
+      <workItem from="1620908526656" duration="5795000" />
+      <workItem from="1621219276376" duration="167000" />
+      <workItem from="1621957602519" duration="791000" />
+      <workItem from="1622028078687" duration="2131000" />
     </task>
     <task id="LOCAL-00001" summary="Update functionality">
       <created>1619013126058</created>
