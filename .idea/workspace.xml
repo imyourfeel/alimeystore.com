@@ -4,7 +4,8 @@
     <list default="true" id="3ca4abd5-4098-477e-81c4-ca5effef15b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap/cache/0fba85349a8e3d5631cde44c0ca92be1eb616b2e.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/0fba85349a8e3d5631cde44c0ca92be1eb616b2e.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/emails/errors.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/errors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/emails/welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/welcome.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +166,7 @@
       <workItem from="1622470524425" duration="2807000" />
       <workItem from="1622882795893" duration="2075000" />
       <workItem from="1623045103258" duration="13069000" />
-      <workItem from="1623059991745" duration="1765000" />
+      <workItem from="1623059991745" duration="2757000" />
     </task>
     <task id="LOCAL-00001" summary="Update functionality">
       <created>1619013126058</created>
@@ -259,6 +260,16 @@
           <url>file://$PROJECT_DIR$/app/models/Order.php</url>
           <line>2</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/includes/nav.blade.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/about.blade.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
