@@ -51,7 +51,7 @@
     <setting file="file://$PROJECT_DIR$/resources/views/includes/nav.blade.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/resources/assets/js/acme.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/resources/assets/js/init.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/resources/views/about.blade.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/views/about.blade.php" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/public/css/all.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/resources/assets/js/admin/update.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/resources/assets/js/pages/lib.js" root0="SKIP_INSPECTION" />
@@ -165,7 +165,7 @@
       <workItem from="1622470524425" duration="2807000" />
       <workItem from="1622882795893" duration="2075000" />
       <workItem from="1623045103258" duration="13069000" />
-      <workItem from="1623059991745" duration="979000" />
+      <workItem from="1623059991745" duration="1765000" />
     </task>
     <task id="LOCAL-00001" summary="Update functionality">
       <created>1619013126058</created>

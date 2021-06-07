@@ -1,26 +1,28 @@
-<?php $__env->startSection('title', 'Homepage'); ?>
-<?php $__env->startSection('data-page-id', 'home'); ?>
+<?php $__env->startSection('title', 'About US'); ?>
+<?php $__env->startSection('data-page-id', 'about'); ?>
 
 <?php $__env->startSection('content'); ?>
-	<body>
-	<div class="row">
+
+	<div class="home">
 	<div class="text-center">
-		<br><br><br>
+		<div class="row">
+
+		<div> <img src="/images/alimeystore.jpg" alt="Alimey Store"> </div>
+			<br>
 		<h1>ABOUT US</h1>
 		<hr>
-	<div class="img">
-		<img src="images/alimeystore.jpg">
-		<hr>
-		<img src="images/alimeystore1.jpg" alt="">
+			<div> <img src="/images/sliders/slide1.jpg" alt="Alimey Store"> </div>
+
 		<span>Responsibilities</span> <br>
 
-	</div>
+
 		<div>
 		<h6>AlimeyStore has established values ​​that are fundamental to
 		Its business that provides customers with goods and services in a timely manner to meet customer needs and is responsible for resolving customer issues professionally.</h6>
 		<hr>
 		</div>
 	<div class="hos">
+		<div> <img src="/images/sliders/slide2.jpg" alt="Alimey Store"> </div>
 		<span> Honesty</span> <br>
 	</div>
 
@@ -89,6 +91,7 @@
 
 		</style>
 		</div>
-	</body>
+		</div>
 <?php $__env->stopSection(); ?>
+
 <?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
