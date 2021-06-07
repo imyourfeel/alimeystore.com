@@ -3995,7 +3995,7 @@ table {
   padding: 1rem;
   border-radius: 2rem;
   background-image: linear-gradient(#ff4400 0%, #f1f9c7 100%);
-  box-shadow: 1rem 1rem 1rem grey; }
+  }
 
 .button {
   border-radius: 1rem; }

@@ -8,7 +8,7 @@
 <?php $__env->startSection('content'); ?>
     <div class="home">
 
-        <section class="display-products" data-token="<?php echo e($token); ?>" data-urlParams="<?php echo e($urlParams); ?>" id="root">
+        <section class="display-products row" data-token="<?php echo e($token); ?>" data-urlParams="<?php echo e($urlParams); ?>" id="root">
             <?php if(isset($category) && $showBreadCrumbs): ?>
                 <div class="grid-x cell">
                     <nav aria-label="You are here:" role="navigation">
@@ -25,11 +25,11 @@
                     </nav>
                 </div>
                 <?php else: ?>
-                    <h2>Categories</h2>
+                    <h2 class="row">Categories</h2>
             <?php endif; ?>
 
-            <div class="grid-x grid-padding-x medium-up-2 large-up-4">
-                <div class="small-12 cell" v-cloak v-for="product in products">
+            <div class="grid-x grid-padding-x medium-up-2 large-up-4 row">
+                <div class="small-12 column" v-cloak v-for="product in products">
                     <a :href="'/product/' + product.id">
                         <div class="card" data-equalizer-watch>
                             <div class="card-section">

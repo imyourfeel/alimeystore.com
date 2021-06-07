@@ -5,8 +5,8 @@
     <div class="home">
 
         <section class="display-products" data-token="<?php echo e($token); ?>" id="root">
-            <h2>Products</h2>
-            <div class="grid-x grid-padding-x medium-up-2 large-up-4">
+            <h2 class="row">Products</h2>
+            <div class="grid-x grid-padding-x medium-up-2 large-up-4 row">
                 <div class="small-12 column" v-cloak v-for="product in products">
                     <a :href="'/product/' + product.id">
                         <div class="card" data-equalizer-watch>

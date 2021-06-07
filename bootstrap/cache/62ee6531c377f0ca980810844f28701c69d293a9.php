@@ -11,16 +11,17 @@
             <div class="row column">
                 <nav aria-label="You are here:" role="navigation">
                     <ul class="breadcrumbs">
-                        <li><a :href="'/product/category/' + category.slug">
+                        <li><a :href="'/products/category/' + category.slug">
                                 {{ category.name }}</a>
                         </li>
-                        <li><a :href="'/product/subcategory/' + subCategory.slug">
+                        <li><a :href="'/products/category/' + category.slug + '/' + subCategory.slug">
                                 {{ subCategory.name }}</a>
                         </li>
                         <li>{{ product.name }}</li>
                     </ul>
                 </nav>
             </div>
+
 
             <div class="row collapse">
                 <div class="small-12 medium-5 large-4 column">
@@ -43,6 +44,7 @@
                     </div>
                 </div>
             </div>
+
         </section>
 
         <section class="home" v-if="loading == false">
