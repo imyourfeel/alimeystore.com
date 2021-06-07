@@ -14,15 +14,15 @@ class ProductController extends BaseController
         $product = Product::where('id', $id)->first();
         return view('product', compact('token', 'product'));
     }
-    
+
     public function get($id)
     {
         $product = Product::where('id', $id)->with(['category', 'subCategory'])->first();
-        if($product){
-            
+        if ($product) {
+
             $similar_products = Product::where('category_id', $product->category_id)
                 ->where('id', '!=', $id)->inRandomOrder()->limit(8)->get();
-            
+
             echo json_encode([
                 'product' => $product, 'category' => $product->category,
                 'subCategory' => $product->subCategory, 'similarProducts' => $similar_products
@@ -33,5 +33,10 @@ class ProductController extends BaseController
         echo 'Product not found';
         exit;
     }
-    
+
+    public function showAll()
+    {
+        $token = CSRFToken::_token();
+        return view('products', compact('token'));
+    }
 }

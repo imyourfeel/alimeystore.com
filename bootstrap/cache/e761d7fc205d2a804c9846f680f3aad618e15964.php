@@ -5,7 +5,7 @@
     <div class="category admin_shared">
         <div class="grid-x grid-padding-x">
             <div class="cell medium-11">
-                <h2>Payments</h2> <hr />
+                <h2>&nbsp&nbsp&nbspPayments</h2> <hr />
             </div>
         </div>
 

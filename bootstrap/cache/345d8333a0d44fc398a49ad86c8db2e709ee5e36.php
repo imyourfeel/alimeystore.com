@@ -5,7 +5,7 @@
     <div class="category admin_shared">
         <div class="grid-x grid-padding-x">
             <div class="cell medium-11">
-                <h2>Product Orders</h2> <hr />
+                <h2>  &nbsp&nbsp&nbsp Product Orders</h2> <hr />
             </div>
         </div>
 
@@ -13,7 +13,7 @@
             <div class="small-12 medium-11 cell">
                 <?php if(isset($orders) && count($orders)): ?>
                     <?php $__currentLoopData = $orders; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $order_no => $details): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                        <h4>Order Number: <?php echo e($order_no); ?></h4>
+                        <h4 style="color: orangered;text-align: center">Order Number: <?php echo e($order_no); ?></h4>
                         <table class="hover">
                             <tr><td><strong>Customer Name:</strong> &nbsp; <?php echo e($details['customer']['fullname']); ?></td></tr>
                             <tr><td><strong>Address:</strong> &nbsp; <?php echo e($details['customer']['address']); ?></td></tr>

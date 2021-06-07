@@ -270,4 +270,9 @@ class CartController extends BaseController
             echo $ex->getMessage();
         }
     }
+    public function emptyCart(){
+    Cart::clear();
+    echo json_encode(['success' => 'Shopping Cart Emptied !']);
+    exit;
+    }
 }

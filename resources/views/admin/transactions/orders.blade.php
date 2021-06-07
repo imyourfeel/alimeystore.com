@@ -6,7 +6,7 @@
     <div class="category admin_shared">
         <div class="grid-x grid-padding-x">
             <div class="cell medium-11">
-                <h2>Product Orders</h2> <hr />
+                <h2>  &nbsp&nbsp&nbsp Product Orders</h2> <hr />
             </div>
         </div>
 
@@ -14,7 +14,7 @@
             <div class="small-12 medium-11 cell">
                 @if(isset($orders) && count($orders))
                     @foreach($orders as $order_no => $details)
-                        <h4>Order Number: {{ $order_no }}</h4>
+                        <h4 style="color: orangered;text-align: center">Order Number: {{ $order_no }}</h4>
                         <table class="hover">
                             <tr><td><strong>Customer Name:</strong> &nbsp; {{ $details['customer']['fullname'] }}</td></tr>
                             <tr><td><strong>Address:</strong> &nbsp; {{ $details['customer']['address'] }}</td></tr>

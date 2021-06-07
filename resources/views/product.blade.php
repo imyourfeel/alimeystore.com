@@ -22,7 +22,7 @@
                     </ul>
                 </nav>
             </div>
-            
+
             <div class="row collapse">
                 <div class="small-12 medium-5 large-4 column">
                     <div>
@@ -35,7 +35,7 @@
                         <p>@{{ product.description }}</p>
                         <h2>$@{{ product.price }}</h2>
                         <button v-if="product.quantity > 0" @click.prevent="addToCart(product.id)"
-                                class="button warning">
+                                class="button alert">
                              Add to cart
                         </button>
                         <button v-else class="button warning" disabled>
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section class="home" v-if="loading == false">
             <div class="display-products">
                 <div class="row medium-up-2 large-up-4">

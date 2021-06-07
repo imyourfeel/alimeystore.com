@@ -2,10 +2,393 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ca4abd5-4098-477e-81c4-ca5effef15b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/cache/94b0416fe0db216275d517e932e85099054d3c30.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/cache/d63da0efa9b48166adfa3733b38b003f4a1c8a97.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sliders/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sliders/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sliders/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/uploads/products/55136656-ebf9f14406292360fed7dff3b7a7117d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/_vendor/sassy-lists/stylesheets/functions/_contain.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/assets/foundation-float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/assets/foundation-prototype.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-float.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-float.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-float.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-float.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-prototype.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-prototype.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-prototype.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-prototype.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.cjs.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.es6.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.abide.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.abide.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.accordion.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.accordion.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.accordionMenu.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.accordionMenu.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.core.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.core.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.drilldown.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.drilldown.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.dropdown.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.dropdown.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.dropdownMenu.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.dropdownMenu.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.equalizer.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.equalizer.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.interchange.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.interchange.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.magellan.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.magellan.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.offcanvas.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.offcanvas.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.orbit.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.orbit.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.responsiveAccordionTabs.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.responsiveAccordionTabs.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.responsiveMenu.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.responsiveMenu.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.responsiveToggle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.responsiveToggle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.reveal.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.reveal.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.slider.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.slider.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.smoothScroll.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.smoothScroll.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.sticky.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.sticky.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.tabs.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.tabs.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.toggler.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.toggler.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.tooltip.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.tooltip.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.box.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.box.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.imageLoader.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.imageLoader.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.keyboard.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.keyboard.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.motion.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.motion.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.nest.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.nest.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.timer.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.timer.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.touch.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.touch.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.triggers.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.triggers.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/typescript/foundation.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/package.nuspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/patches/browserstack-runner+0.9.0.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_arrow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_border-box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_border-none.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_bordered.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_font-styling.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_list-style-type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_prototype.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_relation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_rotate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_rounded.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_separator.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_text-decoration.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_text-transformation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/prototype/_text-utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/vendor/normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/xy-grid/_cell.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/xy-grid/_classes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/xy-grid/_collapse.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/xy-grid/_frame.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/xy-grid/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/xy-grid/_gutters.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/xy-grid/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/xy-grid/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/xy-grid/_xy-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/.nvmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/.stylelintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/dist/what-input.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/src/images/select-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/src/markup/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/src/scripts/what-input.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/src/styles/_html.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/src/styles/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/src/styles/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/src/styles/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/src/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/pages/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/ca790d60205be739fc72d14a2979db2691810317.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/ca790d60205be739fc72d14a2979db2691810317.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sliders/slide_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/sliders/slide_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/admin-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/admin-sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/SubCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/SubCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routing/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routing/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/0b9fd854851878e0f0747b6846d94f1e63b3b011.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/0b9fd854851878e0f0747b6846d94f1e63b3b011.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/0fba85349a8e3d5631cde44c0ca92be1eb616b2e.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/0fba85349a8e3d5631cde44c0ca92be1eb616b2e.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/1355007c894c0424637bd768091511f5e0499448.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/1355007c894c0424637bd768091511f5e0499448.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/2e47c2127f4cb3e321861b05c9225d9fbae58f5e.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/2e47c2127f4cb3e321861b05c9225d9fbae58f5e.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/345d8333a0d44fc398a49ad86c8db2e709ee5e36.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/345d8333a0d44fc398a49ad86c8db2e709ee5e36.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/5725a696002b20a05482383854e6fd9ea8d8b056.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/5725a696002b20a05482383854e6fd9ea8d8b056.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/62ee6531c377f0ca980810844f28701c69d293a9.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/62ee6531c377f0ca980810844f28701c69d293a9.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/bcc802c43e8c8bb276bc28691a6d9d6df9c5a684.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/bcc802c43e8c8bb276bc28691a6d9d6df9c5a684.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/e761d7fc205d2a804c9846f680f3aad618e15964.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/e761d7fc205d2a804c9846f680f3aad618e15964.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/sliders/slide_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/sliders/slide_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/sliders/slide_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/.bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/.bowerrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/.sass-lint.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/_vendor/normalize-scss/sass/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/_vendor/normalize-scss/sass/normalize/_import-now.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/_vendor/normalize-scss/sass/normalize/_normalize-mixin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/_vendor/normalize-scss/sass/normalize/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/_vendor/normalize-scss/sass/normalize/_vertical-rhythm.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/assets/foundation-flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/browserstack.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/code-of-conduct.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/customizer/complete.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/customizer/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/customizer/essential.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/customizer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-flex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-flex.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation-rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/css/foundation.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.abide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.abide.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.accordion.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.accordionMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.accordionMenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.drilldown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.drilldown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.dropdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.dropdownMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.dropdownMenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.equalizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.equalizer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.interchange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.interchange.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.magellan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.magellan.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.offcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.offcanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.orbit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.orbit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.responsiveMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.responsiveMenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.responsiveToggle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.responsiveToggle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.reveal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.reveal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.slider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.sticky.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.tabs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.toggler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.toggler.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.box.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.box.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.keyboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.keyboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.motion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.motion.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.nest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.nest.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.timerAndImageLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.timerAndImageLoader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.touch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.touch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.triggers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.util.triggers.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.zf.responsiveAccordionTabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/dist/js/plugins/foundation.zf.responsiveAccordionTabs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/docslink.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.abide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.accordionMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.drilldown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.dropdownMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.equalizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.interchange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.magellan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.offcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.orbit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.responsiveMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.responsiveToggle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.reveal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.toggler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.util.box.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.util.keyboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.util.mediaQuery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.util.motion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.util.nest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.util.timerAndImageLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.util.touch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.util.triggers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/js/foundation.zf.responsiveAccordionTabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_accordion-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_accordion-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_accordion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_accordion.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_breadcrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_breadcrumbs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_button-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_callout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_callout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_close-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_close-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_drilldown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_drilldown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_dropdown-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_dropdown-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_flex.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_label.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_label.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_media-object.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_media-object.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_off-canvas.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_off-canvas.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_orbit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_orbit.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_progress-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_progress-bar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_responsive-embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_responsive-embed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_reveal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_reveal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_sticky.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_sticky.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_switch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_switch.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_table.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_tabs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_thumbnail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_thumbnail.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_title-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_title-bar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_tooltip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_top-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_top-bar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/components/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_checkbox.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_error.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_error.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_fieldset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_fieldset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_help-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_help-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_label.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_label.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_meter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_meter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_range.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_range.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_select.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/forms/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/foundation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/foundation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_classes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_column.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_column.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_flex-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_flex-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_gutter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_gutter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_position.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_row.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_size.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/settings/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/settings/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/typography/_alignment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/typography/_alignment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/typography/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/typography/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/typography/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/typography/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/typography/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/typography/_print.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/typography/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/typography/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_breakpoint.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_breakpoint.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_color.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_direction.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_direction.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_flex.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_math.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_math.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_selector.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_selector.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_unit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_unit.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_util.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_util.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_value.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/util/_value.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/.bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/Gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/dist/lte-IE8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/dist/what-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/dist/what-input.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/src/polyfills/ie8/EventListener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/src/polyfills/ie8/indexOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/src/what-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/bower/vendor/what-input/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/acme.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/acme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/pages/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/pages/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/pages/home_products.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/pages/home_products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/pages/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/pages/lib.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/sass/pages/_cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/sass/pages/_cart.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/transactions/orders.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/transactions/orders.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/transactions/payments.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/transactions/payments.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/emails/purchase.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/purchase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +428,30 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/routing/routes.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/resources/views/errors/404.blade.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/views/products.blade.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/resources/assets/sass/pages/_nav.scss" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/public/css/all.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/controllers/CategoryController.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/controllers/ProductController.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/resources/views/includes/admin-sidebar.blade.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/views/includes/nav.blade.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/views/product.blade.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/assets/js/acme.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/views/home.blade.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/assets/js/init.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/views/register.blade.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/views/cart.blade.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/public/css/all.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/resources/assets/js/admin/update.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/assets/js/pages/lib.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/resources/assets/js/pages/home_products.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/assets/js/app.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/gulpfile.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/assets/js/pages/products.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/resources/assets/js/pages/cart.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/resources/views/admin/products/categories.blade.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/resources/assets/css/app.css" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/resources/assets/js/init.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/resources/views/register.blade.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -103,14 +498,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/assets/js" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\xampp\htdocs\alimeystore\resources\assets\js" />
+      <recent name="F:\xampp\htdocs\alimeystore\resources\assets\js\pages" />
+      <recent name="F:\xampp\htdocs\alimeystore\resources\views\includes" />
       <recent name="F:\xampp\htdocs\alimeystore\resources\views" />
-      <recent name="F:\xampp\htdocs\alimeystore\app\controllers\admin" />
-      <recent name="F:\xampp\htdocs\alimeystore\public\images" />
+      <recent name="F:\xampp\htdocs\alimeystore\app\controllers" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -145,7 +542,12 @@
       <workItem from="1620908526656" duration="5795000" />
       <workItem from="1621219276376" duration="167000" />
       <workItem from="1621957602519" duration="791000" />
-      <workItem from="1622028078687" duration="2131000" />
+      <workItem from="1622028078687" duration="3372000" />
+      <workItem from="1622035961568" duration="14535000" />
+      <workItem from="1622079172554" duration="1116000" />
+      <workItem from="1622470524425" duration="2807000" />
+      <workItem from="1622882795893" duration="2075000" />
+      <workItem from="1623045103258" duration="1727000" />
     </task>
     <task id="LOCAL-00001" summary="Update functionality">
       <created>1619013126058</created>
@@ -183,6 +585,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="452" y="102" key="#Deployment/0.0.1920.1050@0.0.1920.1050" timestamp="1619014404698" />
+    <state x="452" y="102" key="#Inspections" timestamp="1623046491507">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="452" y="102" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1623046491507" />
     <state x="552" y="183" key="#Notifications" timestamp="1620485764316">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -191,6 +597,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1616094167371" />
+    <state x="374" y="281" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622043751551">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="374" y="281" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1622043751551" />
     <state x="500" y="0" key="CommitChangelistDialog2" timestamp="1619014411747">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -199,6 +609,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="164" y="164" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1619009828531" />
+    <state x="772" y="67" key="RollbackChangesDialog" timestamp="1622040642147">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="772" y="67" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1622040642147" />
     <state x="56" y="28" width="1722" height="883" key="SettingsEditor" timestamp="1620486091984">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -227,6 +641,11 @@
           <url>file://$PROJECT_DIR$/app/models/Order.php</url>
           <line>2</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/home.blade.php</url>
+          <line>43</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

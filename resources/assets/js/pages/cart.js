@@ -60,10 +60,10 @@
                     var postData = $.param({item_index:index});
                     axios.post('/cart/remove-item', postData).then(function (response) {
                         $(".notify").css("display", 'block').delay(4000).slideUp(300)
-                            .html(response.data.success);
-                        app.displayItems(10);
-                        app.paypalCheckout();
-                    });
+                       .html(response.data.success);
+                   app.displayItems(10);
+                   app.paypalCheckout();
+               });
                 },
                 checkout: function () {
                     Stripe.open({
@@ -117,7 +117,14 @@
                             }
                         }, '#paypalBtn');
                     },2000)
-                }
+                },emptyCart: function(){
+                   axios.post('/cart/remove-item', postData).then(function (response) {
+                        $(".notify").css("display", 'block').delay(4000).slideUp(300)
+                       .html(response.data.success);
+                   app.displayItems(10);
+                   app.paypalCheckout();
+               });
+        },
             },
             created: function () {
                 this.displayItems(1000);

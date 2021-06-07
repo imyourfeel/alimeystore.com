@@ -15,6 +15,10 @@
             case 'product':
                 ACMESTORE.product.details();
                 break;
+            case 'products':
+            case 'categories':
+                ACMESTORE.products.display();
+                break;
             case 'cart':
                 ACMESTORE.product.cart();
                 break;

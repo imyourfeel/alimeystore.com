@@ -54,16 +54,9 @@
                 </div>
     
                 <div class="small-12 medium-6 column">
-                    <label>Product Quantity:
-                        <select name="quantity">
-                            <option value="<?php echo e(\App\Classes\Request::old('post', 'quantity')?:""); ?>">
-                                <?php echo e(\App\Classes\Request::old('post', 'quantity')?:"Select quantity"); ?>
-
-                            </option>
-                            <?php for($i = 1; $i <= 50; $i++): ?>
-                                <option value="<?php echo e($i); ?>"><?php echo e($i); ?></option>
-                            <?php endfor; ?>
-                        </select>
+                    <label>Product price:
+                        <input type="number" name="quantity" placeholder="Product Quantity"
+                               value="<?php echo e(\App\Classes\Request::old('post', 'quantity')?:""); ?>">
                     </label>
                 </div>
     

@@ -4246,6 +4246,8 @@ textarea {
   @media screen and (max-width: 39.9375em) {
     .shopping_cart {
       padding: 4rem 0.3rem; } }
+  .shopping_cart table tr, .shopping_cart table td {
+    padding: 0.8rem; }
 
 .slide-in-down.mui-enter {
   transition-duration: 500ms;

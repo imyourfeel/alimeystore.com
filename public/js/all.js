@@ -18650,6 +18650,7 @@ e.exports=function(e){return null!=e&&(n(e)||r(e)||!!e._isBuffer)}},function(e,t
       admin: {},
       homeslider: {},
       product: {},
+      products: {},
     };
 })();
 
@@ -18942,10 +18943,10 @@ e.exports=function(e){return null!=e&&(n(e)||r(e)||!!e._isBuffer)}},function(e,t
                     var postData = $.param({item_index:index});
                     axios.post('/cart/remove-item', postData).then(function (response) {
                         $(".notify").css("display", 'block').delay(4000).slideUp(300)
-                            .html(response.data.success);
-                        app.displayItems(10);
-                        app.paypalCheckout();
-                    });
+                       .html(response.data.success);
+                   app.displayItems(10);
+                   app.paypalCheckout();
+               });
                 },
                 checkout: function () {
                     Stripe.open({
@@ -18999,7 +19000,14 @@ e.exports=function(e){return null!=e&&(n(e)||r(e)||!!e._isBuffer)}},function(e,t
                             }
                         }, '#paypalBtn');
                     },2000)
-                }
+                },emptyCart: function(){
+                   axios.post('/cart/remove-item', postData).then(function (response) {
+                        $(".notify").css("display", 'block').delay(4000).slideUp(300)
+                       .html(response.data.success);
+                   app.displayItems(10);
+                   app.paypalCheckout();
+               });
+        },
             },
             created: function () {
                 this.displayItems(1000);
@@ -19048,13 +19056,12 @@ e.exports=function(e){return null!=e&&(n(e)||r(e)||!!e._isBuffer)}},function(e,t
                 loadMoreProducts: function () {
                     var token = $('.display-products').data('token');
                     this.loading = true;
-                    var data = $.param({next: 2, token: token, count: app.count});
-                    axios.post('/load-more', data)
-                        .then(function (response) {
-                            app.products = response.data.products;
-                            app.count = response.data.count;
-                            app.loading = false;
-                        });
+                    var postdata = { next: 2, token: token, count: this.count };
+                    ACMESTORE.module.loadMore('/load-more', postdata, function (response) {
+                        app.products = response.products;
+                        app.count = response.count;
+                        app.loading = false;
+                    });
                 }
             },
             created: function () {
@@ -19093,7 +19100,72 @@ e.exports=function(e){return null!=e&&(n(e)||r(e)||!!e._isBuffer)}},function(e,t
             axios.post('/cart', postData).then(function (response) {
                 callback(response.data.success);
             })
+        },
+        loadMore: function (endpoint, $postData, callback) {
+            var postdata = $.param($postData);
+            axios.post(endpoint, postdata).then(function (response) {
+                    callback(response.data);
+            });
         }
+    }
+
+})();
+
+(function () {
+    'use strict';
+
+    ACMESTORE.products.display = function () {
+        var app = new Vue({
+            el:'#root',
+            data: {
+                products: [],
+                count: 0,
+                loading: false,
+                next: 8,
+                targetElement: $('.display-products'),
+                loadMoreEndpoint: '/products/category/load-more'
+            },
+            methods:{
+                stringLimit: function (string, value) {
+                    return ACMESTORE.module.truncateString(string, value);
+                },
+                addToCart: function (id) {
+                    ACMESTORE.module.addItemToCart(id, function (message) {
+                        $(".notify").css("display", 'block').delay(4000).slideUp(300)
+                            .html(message);
+                    });
+                },
+                loadMoreProducts: function () {
+                    var token = this.targetElement.data('token');
+                    var urlParams = this.targetElement.data('urlparams');
+                    this.loading = true;
+                    var postData = { next: this.next, token: token, count: this.count };
+
+                    if(typeof urlParams !== 'undefined' && urlParams){
+                        postData.slug = urlParams.slug;
+                        if(typeof urlParams.subcategory !== 'undefined'){
+                            postData.subcategory = urlParams.subcategory;
+                        }
+                    }
+                    ACMESTORE.module.loadMore(this.loadMoreEndpoint, postData, function (response) {
+                        app.products = response.products;
+                        app.count = response.count;
+                        app.loading = false;
+                        app.next  += 2;
+                    });
+                }
+            },
+            created: function () {
+                this.loadMoreProducts();
+            },
+            mounted: function () {
+                $(window).scroll(function () {
+                    if($(window).scrollTop() + $(window).height() == $(document).height()){
+                        app.loadMoreProducts();
+                    }
+                })
+            }
+        });
     }
 })();
 
@@ -19174,6 +19246,10 @@ e.exports=function(e){return null!=e&&(n(e)||r(e)||!!e._isBuffer)}},function(e,t
                 break;
             case 'product':
                 ACMESTORE.product.details();
+                break;
+            case 'products':
+            case 'categories':
+                ACMESTORE.products.display();
                 break;
             case 'cart':
                 ACMESTORE.product.cart();

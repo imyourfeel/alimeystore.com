@@ -53,15 +53,9 @@
                 </div>
     
                 <div class="small-12 medium-6 column">
-                    <label>Product Quantity:
-                        <select name="quantity">
-                            <option value="{{ \App\Classes\Request::old('post', 'quantity')?:"" }}">
-                                {{ \App\Classes\Request::old('post', 'quantity')?:"Select quantity" }}
-                            </option>
-                            @for($i = 1; $i <= 50; $i++)
-                                <option value="{{ $i }}">{{ $i }}</option>
-                            @endfor
-                        </select>
+                    <label>Product price:
+                        <input type="number" name="quantity" placeholder="Product Quantity"
+                               value="{{ \App\Classes\Request::old('post', 'quantity')?:"" }}">
                     </label>
                 </div>
     

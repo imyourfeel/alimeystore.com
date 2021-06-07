@@ -7,9 +7,9 @@
         
         <section class="hero">
             <div class="hero-slider">
-                <div> <img src="/images/sliders/slide_1.jpg" alt="Alimey Store"> </div>
-                <div> <img src="/images/sliders/slide_2.jpg" alt="Alimey Store"> </div>
-                <div> <img src="/images/sliders/slide_3.jpg" alt="Alimey Store"> </div>
+                <div> <img src="/images/sliders/slide1.jpg" alt="Alimey Store"> </div>
+                <div> <img src="/images/sliders/slide2.jpg" alt="Alimey Store"> </div>
+                <div> <img src="/images/sliders/slide3.jpg" alt="Alimey Store"> </div>
             </div>
         </section>
     
