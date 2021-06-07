@@ -64,18 +64,18 @@
 <hr>
 	<div>
 		<span>CONTACT</span>
-		<ul>
-			<span><img src="https://img.icons8.com/nolan/64/apple-phone.png"/>069 215 092</span>
-			<br>
-			<span><img src="https://img.icons8.com/nolan/64/apple-phone.png"/>099 245 511</span>
+		<br>
+		<h2></h2>
+			<h2>069 215 092</h2>
+			<h2>099 245 511</h2>
 
-		</ul>
+
 		<div>
 			<span>FOLLOW US</span>
 			<br>
-			<a href="https://www.facebook.com/AlimeyExpress" ><img src="https://img.icons8.com/nolan/256/facebook.png"/></a>
+			<a href="https://www.facebook.com/AlimeyExpress" ><img src="https://img.icons8.com/nolan/96/facebook-new.png"/></a>
 		</div>
-	</div>
+		<hr>
 		<style>
 			span, h1{
 					font-size: 24px;
